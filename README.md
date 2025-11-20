@@ -25,7 +25,7 @@ Nous proposons ici de mettre en évidence des liens conceptuels dans une page HT
 - les identifiants d'autorité pour la désambiguïsation
 - les microdatas pour les liens sémantiques
 - avec schema.org pour la structuratition
-- Le dublin core pour les métadonnées de la page
+- Le dublin core pour les métadonnées de la page au sein de la balise <head> (**POSH** : *Plain Old Semantic Metadata*)
 - Le *plugin* OSDS pour la lecture augmentée
 - Le protocole Z39.88 avec COinS (*context object in span*) pour la compatibilité bibliographique avec Zotero
 - Le [validateur W3C](https://validator.w3.org/) pour vérifier la qualité du HTML5
