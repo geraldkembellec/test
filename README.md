@@ -1,4 +1,4 @@
-# README
+# README / Lisez-moi
 ## Regarding usage: Editorial management of a scholarly or scientific HTML page
 
 ### Main goals :
