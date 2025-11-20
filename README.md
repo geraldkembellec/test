@@ -18,15 +18,15 @@ Here, we aim to highlight conceptual links within an HTML page, specifically the
 ## Gestion éditoriale d'une page html érudite ou scientifique
 ### Objectif :
 
-Nous proposons ici de mettre en évidence des liens conceptuels dans une page HTML, ici l'agentivité de Gérald Kembellec (identifié par son id) qui est d'accord avec le concept d'IEML proposé par Pierre Lévy (de Montréal) à ne pas confondre avec Pierre Lévy (de Paris). Nous proposons aussi de mettre à disposition une notice bibliographique structurée relative à la page de blog du concept d'IEML présenté par son auteur.
+Nous proposons ici de mettre en évidence des liens conceptuels dans une page HTML, ici l'agentivité de Gérald Kembellec (identifié par son identifiant orcid) qui est d'accord avec le concept d'IEML proposé par Pierre Lévy (de Montréal) à ne pas confondre avec Pierre Lévy (de Paris). Nous proposons aussi de mettre à disposition une notice bibliographique structurée relative à la page de blog du concept d'IEML présenté par son auteur.
 
 ### On utilise : 
 - HTML5 comme support / CSS3 pour la présentation
 - les identifiants d'autorité pour la désambiguïsation
 - les microdatas pour les liens sémantiques
 - avec schema.org pour la structuratition
-- Le dublin core pour les métadonnées de la page au sein de la balise ``` <head>``` (**POSH** : *Plain Old Semantic Metadata*)
+- Le dublin core pour les métadonnées de la page au sein de la balise ```<head>``` (**POSH** : *Plain Old Semantic Metadata*)
 - Le *plugin* OSDS pour la lecture augmentée
-- Le protocole Z39.88 avec COinS (*context object in span*) pour la compatibilité bibliographique avec Zotero
+- Le protocole Z39.88 avec COinS (*context object in span*) pour la compatibilité bibliographique avec Zotero via la balise ```<span>``` 
 - Le [validateur W3C](https://validator.w3.org/) pour vérifier la qualité du HTML5
 - Le [validateur schema.org](https://validator.schema.org/) pour vérifier la qualité des relations sémantiques intégrées dans la page.
