@@ -9,7 +9,7 @@ Here, we aim to highlight conceptual links within an HTML page, specifically the
 - Authority identifiers for disambiguation (**orcid**, viaf...)
 - **Microdata** for semantic links
 - [**Schema.org**](https://orcid.org/) for structuring
-- **Dublin Core** for page metadata (POSH : Plain Old Semantic Metadata)
+- **Dublin Core** for page metadata (**POSH** : *Plain Old Semantic Metadata*)
 - The [**OSDS**](https://osds.openlinksw.com/) plugin for enhanced reading in Web browser
 - The [**Z39.88**](https://www.niso.org/publications/z3988-2004-r2010) OpenURL protocol with [**COinS**](https://en.wikipedia.org/wiki/COinS) (context object in span) for bibliographic compatibility with **Zotero**
 - The [W3C validator](https://validator.w3.org/) to check.
