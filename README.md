@@ -6,8 +6,8 @@
 - **Microdata** for semantic links
 - [**Schema.org**](https://orcid.org/) for structuring
 - **Dublin Core** for page metadata (POSH : Plain Old Semantic Metadata)
-- The **OSDS** plugin for enhanced reading
-- The **Z39.88** protocol with **COinS** (context object in span) for bibliographic compatibility with **Zotero**
+- The [**OSDS**](https://osds.openlinksw.com/) plugin for enhanced reading in Web browser
+- The [**Z39.88**](https://www.niso.org/publications/z3988-2004-r2010) OpenURL protocol with **COinS** (context object in span) for bibliographic compatibility with **Zotero**
 
 # Gestion éditoriale d'une page html érudite ou scientifique
 ## On utilise : 
