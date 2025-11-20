@@ -4,7 +4,7 @@
 - **HTML5** as the underlying structure / CSS3 for presentation
 - Authority identifiers for disambiguation (**orcid**, viaf...)
 - **Microdata** for semantic links
-- **Schema.org** for structuring
+- [**Schema.org**](https://orcid.org/) for structuring
 - **Dublin Core** for page metadata (POSH : Plain Old Semantic Metadata)
 - The **OSDS** plugin for enhanced reading
 - The **Z39.88** protocol with **COinS** (context object in span) for bibliographic compatibility with **Zotero**
