@@ -2,13 +2,55 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Master CTM</title>
+  <title>Web sem ?</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
 </head>
 <body>
- <h1>Mon test</h1>
-  <h2>hello</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet metus sed est vulputate consectetur. Nam elementum dignissim tellus ut finibus. Mauris elementum convallis lacinia. Nullam non porttitor purus. Fusce tempus pharetra ornare. Sed ut bibendum magna. Aliquam sed semper nisl, nec vestibulum nunc. Donec hendrerit tempor elit eleifend venenatis. </p>
+ <h1>Mon avis (à moi)</h1>
+  <h2>Agentivité</h2>
+  <div itemscope itemtype="http://schema.org/AgreeAction" class="ok" id="AgreeAction">
+    <span 
+    itemscope itemprop="agent"
+    itemtype="http://schema.org/Person" 
+    itemid="https://orcid.org/0000-0003-3036-6989">
+        <meta itemprop="name" content="Gérald Kembellec">
+        <span itemprop="name">Je</span>
+            <img itemprop="image" 
+                     src="https://www.dicen-idf.org/wp-content/uploads/2014/06/gerald.png" 
+                    style="display:none"/>              
+    </span>
+    suis assez d'accord avec le concept d'
+    <cite itemscope itemtype="http://schema.org/CreativeWork">
+        <span itemprop="name" title="Information Economy Meta-Language"
+              itemid="https://en.wikipedia.org/wiki/IEML">
+          IEML
+        </span>
+        du philosophe 
+        <span 
+        itemscope itemprop="Creator" 
+        itemtype="http://schema.org/Person" 
+        itemid="https://isni.org/isni/0000000109171840">
+            <!-- Petit test pour montrer l'usage possible d'une autorité -->
+            <span itemprop="name">Pierre Lévy</span>
+            <img itemprop="image" 
+                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Pierre_L%C3%A9vy.jpg/500px-Pierre_L%C3%A9vy.jpg" 
+                    style="display:none"/>
+                <time itemprop="birthDate" datetime="1956" style="display:none">1956</time>
+                <span itemprop="birthPlace" style="display:none">Tunis</span>                 
+        </span>
+    </cite>
+</div>
+qui n'est pas 
+    <span 
+    itemscope itemprop="Person" 
+    itemtype="http://schema.org/Person" 
+    itemid="https://orcid.org/0000-0003-2801-0588">
+    <span itemprop="name">Pierre Lévy</span>
+        <img itemprop="image" 
+                 src="https://www.dicen-idf.org/wp-content/uploads/2021/09/PLevy_180.jpg" 
+                style="display:none"/>              
+    </span>
+     (qui est Professeur de design).
 </body>
 </html>
