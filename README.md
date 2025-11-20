@@ -13,6 +13,7 @@ Here, we aim to highlight conceptual links within an HTML page, specifically the
 - The [**OSDS**](https://osds.openlinksw.com/) plugin for enhanced reading in Web browser
 - The [**Z39.88**](https://www.niso.org/publications/z3988-2004-r2010) OpenURL protocol with [**COinS**](https://en.wikipedia.org/wiki/COinS) (context object in span) for bibliographic compatibility with **Zotero**
 - The [W3C validator](https://validator.w3.org/) to check.
+- The [schema.org validator](https://validator.schema.org/) to check the quality of the semantic relationships integrated into the page.
 
 ## Gestion éditoriale d'une page html érudite ou scientifique
 ### Objectif :
@@ -28,3 +29,4 @@ Nous proposons ici de mettre en évidence des liens conceptuels dans une page HT
 - Le *plugin* OSDS pour la lecture augmentée
 - Le protocole Z39.88 avec COinS (*context object in span*) pour la compatibilité bibliographique avec Zotero
 - Le [validateur W3C](https://validator.w3.org/) pour vérifier la qualité du HTML5
+- Le [validateur schema.org](https://validator.schema.org/) pour vérifier la qualité des relations sémantiques intégrées dans la page.
