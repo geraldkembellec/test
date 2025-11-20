@@ -1,5 +1,5 @@
 # Gestion éditoriale d'une page html érudite ou scientifique
-__ On utilise : __
+## On utilise : 
 - HTML5 comme support / CSS3 pour la présentation
 - les identifiants d'autorité pour la désambiguïsation
 - les microdatas pour les liens sémantiques
