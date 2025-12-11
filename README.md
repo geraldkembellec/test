@@ -1,6 +1,6 @@
 # README / Lisez-moi
 ## Regarding usage: Editorial management of a scholarly or scientific HTML page
-
+Link : [https://geraldkembellec.github.io/test/](https://geraldkembellec.github.io/test/)
 ### Main goals :
 Here, we aim to highlight conceptual links within an HTML page, specifically the agency of Gérald Kembellec (identified by his ID), who agrees with the IEML concept proposed by Pierre Levy (of Montreal), not to be confused with Pierre Lévy (of Paris). We also propose to provide a structured bibliographic entry related to the blog page presenting the IEML concept by its author.
 
