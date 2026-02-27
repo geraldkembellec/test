@@ -75,14 +75,15 @@ cite [itemid*="isni"]::after {
 
 /* Indique une identité distincte */
 [itemtype*="Person"]:not([itemprop="agent"]) {
-  color: #B71C1C;
   font-weight: bold;
 }
 .IsNot ::before{
   content: "≠ ";
+  color: #B71C1C;
 }
 .Is ::before{
   content: "= ";
+  color: #55b71c;
 }
 
 /* =========================
