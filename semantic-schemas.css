@@ -79,10 +79,10 @@ cite [itemid*="isni"]::after {
   font-weight: bold;
 }
 .IsNot ::before{
-  content: "= ";
+  content: "≠ ";
 }
 .Is ::before{
-  content: "≠ ";
+  content: "= ";
 }
 
 /* =========================
