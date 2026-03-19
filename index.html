@@ -20,11 +20,16 @@
 	<meta name="DC.coverage" lang="en" content="Worldwide">
 	<meta name="DC.coverage" lang="fr" content="Partout">
 	<meta name="DC.source" content="https://geraldkembellec.github.io/test/">
+	<script>
+		function changerCSS(){
+ 		 document.getElementById("css").href = "semantic-schemas.css";
+		}
+	</script>
 </head>
 <body>
  <header>
 	 <button onclick="alert('Yep');">Lecture immersive</button>
-	 <button onclick="document.getElementById('css').href='semantic-schemas.css';">Lecture augmentée</button>
+	 <button onclick="changerCSS();">Lecture augmentée</button>
 </header>
  <h1>Mon avis sur IEML</h1>
  <h2>Avis</h2>
