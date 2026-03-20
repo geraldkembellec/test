@@ -20,17 +20,23 @@
 	<meta name="DC.coverage" lang="en" content="Worldwide">
 	<meta name="DC.coverage" lang="fr" content="Partout">
 	<meta name="DC.source" content="https://geraldkembellec.github.io/test/">
+	<link rel="stylesheet" type="text/css" href="" title="normal">
+	<link rel="alternate stylesheet" type="text/css" href="semantic-schemas.css" title="semantic">		
 	<script>
-		function changerCSS(){
-		 alert("on mute");
- 		 document.getElementById("css").href = "semantic-schemas.css";
+		function setActiveStyleSheet(title) {
+  			var links = document.querySelectorAll('link[rel*="stylesheet"]');
+ 			var i = links.length;
+  			while (links[--i]) {
+    		links[i].disabled = links[i].getAttribute('title') !== title;
+  			}
 		}
 	</script>
 </head>
 <body>
  <header>
-	 <button onclick="alert('Yep');">Lecture immersive</button>
-	 <button onclick="changerCSS();">Lecture augmentée</button>
+	 setActiveStyleSheet
+	 <button onclick="setActiveStyleSheet('normal');">Lecture immersive</button>
+	 <button onclick="setActiveStyleSheet('semantic');">Lecture augmentée</button>
 </header>
  <h1>Mon avis sur IEML</h1>
  <h2>Avis</h2>
